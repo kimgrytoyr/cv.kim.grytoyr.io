@@ -1,0 +1,231 @@
+baseURL: 'https://cv.kim.grytoyr.io/'
+languageCode: 'no'
+defaultContentLanguage: 'no'
+title: Kim Grytøyr
+theme: hugo-devresume-theme
+
+languages:
+  'no':
+    title: 'Kim Grytøyr'
+    weight: 1
+  'en':
+    title: 'Kim Grytøyr'
+    weight: 2
+
+params:
+  author: Kim Grytøyr
+  description: My CV
+  primaryColor: '#3b6298'
+  textPrimaryColor: '#292929'
+  profile:
+    enable: true
+    name: Kim Grytøyr
+    tagline: Senior systemutvikler
+    avatar: portrait.jpg
+  contact:
+    enable: true
+    location: 'Bodø'
+    list:
+      - icon: fas fa-phone-square
+        url: 'tel:+4795810100'
+        text: +47 958 10 100
+      - icon: fas fa-envelope-square
+        url: 'mailto:kim@grytoyr.io'
+        text: kim@grytoyr.io
+      - icon: fas fa-globe
+        url: 'https://kim.grytoyr.io'
+        text: kim.grytoyr.io
+  skills:
+    enable: true
+    list:
+      - title: Teknisk
+        items:
+          - details: Elixir & Phoenix
+            level: 7
+          - details: Javascript
+            level: 8
+          - details: Node.js
+            level: 8
+          - details: React
+            level: 8
+          - details: React Native
+            level: 6
+          - details: HTML & CSS
+            level: 9
+          - details: PHP
+            level: 9
+          - details: Python
+            level: 6
+          - details: C#
+            level: 4
+          - details: NSQ
+            level: 7
+          - details: Redis
+            level: 5
+          - details: Bash
+            level: 7
+          - details: Flutter
+            level: 9
+          - details: MySQL
+            level: 8
+          - details: Docker
+            level: 5
+          - details: Utvikle og publisere apper for iOS og Android
+            level: 8
+      - title: Verktøy og tjenester
+        items:
+          - details: Git
+            level: 8
+          - details: Buildkite
+            level: 6
+          - details: AWS
+            level: 5
+          - details: Icinga2
+            level: 7
+          - details: Netaxept
+            level: 7
+          - details: Slack
+            level: 9
+          - details: Wordpress
+            level: 7
+          - details: Craft CMS
+            level: 5
+      - title: Profesjonelt
+        items:
+          - details: Gode kommunikasjonsevner
+          - details: Løsningsorientert
+          - details: Samarbeider godt med andre
+  education:
+    enable: false
+    list:
+      - degree: ''
+        university: ''
+        dates: ''
+  awards:
+    enable: false
+    list:
+      - name: ''
+        body: ''
+        date: 2019
+  languages:
+    enable: true
+    list:
+      - name: Norsk
+        level: Morsmål
+      - name: Engelsk
+        level: Flytende
+  interests:
+    enable: true
+    list:
+      - name: Sjakk
+      - name: Fotografering
+      - name: Spillutvikling
+  summary:
+    enable: true
+    text: >-
+      Jeg er en allsidig systemutvikler med nærmere 20 års erfaring med utvikling i forskjellige språk og
+      rammeverk. Det å se og forstå behovet, for deretter å omsette denne forståelsen til et ferdig produkt,
+      er det jeg ser på en som en av mine største styrker. Jeg lærer nye ting raskt og er selvgående. På arbeidsplassen,
+      enten det er i et kontorlokale eller i et videomøte, bidrar jeg med godt humør og en god dose tørr humor.
+  experience:
+    enable: true
+    list:
+      - title: Backend-utvikler
+        dates: februar 2021 - nå
+        company: Dekode Interaktiv AS
+        link: https://dekode.no
+        details: >-
+          Dekode Interaktiv er et relativt stort WordPress-byrå som leverer nettsider til større kunder i Norge,
+          som for eksempel Høyre, Redd Barna, Kreftforeningen og Kirkens bymisjon. Jeg jobber hovedsakelig med 
+          backend-oppgaver og integrasjoner mot eksterne tjenester som for eksempel Finn, Google Docs, og CRM-systemer. 
+        items:
+          - details: Backend- og integrasjonsutvikling i PHP
+          - details: Frontendutvikling i React
+      - title: Utviklingsleder og medeier
+        dates: 2011 - januar 2021
+        company: iBooking AS
+        link: https://info.ibooking.no
+        details: >-
+          Fra 2011 jobbet jeg som utvikler, og fra 2015 som utviklingsleder, i iBooking AS. iBooking leverer
+          bookingsystem, innmelding på nett og en rekke andre tjenester til treningssentre over hele Norge. Jeg har hatt
+          en rekke forskjellige oppgaver i bedriften, blant annet videreutvikling av systemet, prosjektledelse, support
+          og mye kundekontakt.
+        items:
+          - details: Backendutvikling i PHP og Elixir/Phoenix
+          - details: Frontendutvikling i React
+          - details: Apputvikling i React Native
+          - details: Prosjektplanlegging og -ledelse
+      - title: Innehaver
+        dates: 2020 - nå
+        company: Grytøyr Dev
+        link: https://dev.grytoyr.io
+        details: >-
+          Jeg er innehaver av et enkeltpersonforetak hvor jeg tidvis påtar meg enkelte mindre utviklingsoppgaver privat.
+        items:
+          - details: Systemutvikling
+          - details: Flutter, Craft CMS, Elixir/Phoenix, Wordpress
+      - title: Medeier
+        dates: 2019 - nå
+        company: Trimpoeng AS
+        link: https://info.trimpoeng.no
+        details: >-
+          Jeg er medeier i Trimpoeng AS. Trimpoeng ble til som et produkt i iBooking AS i 2015. Siden oppstarten og frem
+          til høsten 2020 har Trimpoeng bidratt til mer enn seks millioner turopplevelser i Norge. Appen som har 
+          sørget for å gjøre dette mulig er utviklet av meg. Senere har produktet blitt skilt ut i et eget selskap 
+          som jeg nå er medeier i. Høsten 2020 ble en helt ny app skrevet i Flutter lansert, og jeg har vært involvert
+          i store deler av utviklingen av denne. Jeg jobber fortsatt med å videreutvikle denne appen.
+        items:
+          - details: Backendutvikling i PHP og Elixir/Phoenix
+          - details: Apputvikling i Appcelerator (2015-2020)
+          - details: Apputvikling i Flutter (2019-)
+          - details: 'Blogging, se [https://blogg.trimpoeng.no/author/kim/](https://blogg.trimpoeng.no/author/kim/)'
+      - title: Eier, daglig leder og utvikler
+        dates: 2004 - 2015
+        company: Nettintro ANS
+        details: >-
+          Jeg startet i 2004 et firma sammen med to andre som skulle utvikle og selge en publiseringsløsning
+          for små og mellomstore bedrifter. All utvikling ble gjort av meg. Frem til 2008 jobbet jeg deltid
+          med dette, men fra desember 2008 gikk jeg over til å jobbe fulltid med Nettintro. Publiseringsløsningen
+          er utviklet i PHP.
+        items:
+          - details: Administrativt arbeid (regnskapsføring m.m.)
+          - details: Utvikling av publiseringsløsning i PHP
+          - details: Salg, support og øvrig kundeoppfølging
+  projects:
+    enable: true
+    list:
+      - title: WordPress Docker
+        meta: Open Source
+        tagline: >-
+          Jeg trengte en enkel måte å sette opp en ny WordPress-nettside på, og lagde derfor et Docker-oppsett
+          som er integrert med Visual Studio Code sin Remote Containers-extension.
+        link: https://src.grytoyr.io/kim/wordpress-docker
+      - title: npaste
+        meta: Open Source
+        tagline: >-
+          Jeg er opptatt av personvern og sikkerhet, noe som har resultert i utviklingen av
+          npaste. Dette er en enkel pastebin-server og -klient for tekst og bilder. Alt av innhold
+          kan ende-til-ende-krypteres ved hjelp av GPG.
+        link: https://src.grytoyr.io/kim/npaste
+  information:
+    enable: true
+    list:
+      - title: Fakta
+        details: 'Født i [Steigen kommune](https://steigen.kommune.no) i 1985. Bor nå i Bodø. Har to barn på 11 og 13 år.'
+      - title: Interesser
+        details: '[Sjakk](https://lichess.org/@/kimgrytoyr), fotografering, [spillutvikling](https://ldjam.com/users/ramlefant/games).'
+  social:
+    enable: true
+    list:
+      - icon: fab fa-github-square
+        url: //github.com/kimgrytoyr
+        title: kimgrytoyr
+      - icon: fab fa-linkedin
+        url: //linkedin.com/in/kim-grytøyr-10a56210
+        title: Kim Grytøyr
+      - icon: fab fa-twitter-square
+        url: //twitter.com/kimgrytoyr
+        title: '@kimgrytoyr'
+      - icon: fab fa-mastodon
+        url: //fosstodon.org/@kimgrytoyr
+        title: '@kimgrytoyr'
