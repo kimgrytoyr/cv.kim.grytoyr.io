@@ -2,5 +2,6 @@
 .sync.log
 .changed-files
 .paths
+resources/
 public/
 run.sh
