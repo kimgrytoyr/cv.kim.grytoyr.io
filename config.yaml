@@ -120,23 +120,46 @@ params:
       - name: Sjakk
       - name: Fotografering
       - name: Spillutvikling
+      - name: Brettspill
   summary:
     enable: true
     text: >-
-      Jeg er en allsidig systemutvikler med nærmere 20 års erfaring med utvikling i forskjellige språk og
+      Jeg er en allsidig systemutvikler med mer enn 15 års erfaring med utvikling i forskjellige språk og
       rammeverk. Det å se og forstå behovet, for deretter å omsette denne forståelsen til et ferdig produkt,
       er det jeg ser på en som en av mine største styrker. Jeg lærer nye ting raskt og er selvgående. På arbeidsplassen,
       enten det er i et kontorlokale eller i et videomøte, bidrar jeg med godt humør og en god dose tørr humor.
   experience:
     enable: true
     list:
+      - title: Eier/daglig leder/utvikler
+        dates: november 2021 - nå
+        company: Devos AS
+        link: https://devos.no
+        details: >-
+          I november startet jeg opp som selvstendig konsulent i eget firma. Mer informasjon finner du på nettsiden: https://devos.no
+      - title: Medeier og CTO
+        dates: 2019 - nå (CTO november 2021 - nå)
+        company: Trimpoeng AS
+        link: https://info.trimpoeng.no
+        details: >-
+          Jeg er medeier og CTO i Trimpoeng AS. Trimpoeng ble til som et produkt i iBooking AS i 2015. Siden oppstarten og frem
+          til sommeren 2021 har Trimpoeng bidratt til mer enn ti millioner turopplevelser i Norge. Appen som har 
+          sørget for å gjøre dette mulig er utviklet av meg. Senere har produktet blitt skilt ut i et eget selskap 
+          som jeg nå er medeier og CTO i. Høsten 2020 ble en helt ny app skrevet i Flutter lansert, og jeg har vært involvert
+          i store deler av utviklingen av denne.
+        items:
+          - details: Backendutvikling i PHP og Elixir/Phoenix
+          - details: Frontendutvikling i React
+          - details: Apputvikling i Appcelerator (2015-2020)
+          - details: Apputvikling i Flutter (2019-)
+          - details: 'Blogging, se [https://blogg.trimpoeng.no/author/kim/](https://blogg.trimpoeng.no/author/kim/)'
       - title: Backend-utvikler
-        dates: februar 2021 - nå
+        dates: februar 2021 - oktober 2021
         company: Dekode Interaktiv AS
         link: https://dekode.no
         details: >-
           Dekode Interaktiv er et relativt stort WordPress-byrå som leverer nettsider til større kunder i Norge,
-          som for eksempel Høyre, Redd Barna, Kreftforeningen og Kirkens bymisjon. Jeg jobber hovedsakelig med 
+          som for eksempel Høyre, Redd Barna, Kreftforeningen og Kirkens bymisjon. Jeg jobbet hovedsakelig med 
           backend-oppgaver og integrasjoner mot eksterne tjenester som for eksempel Finn, Google Docs, og CRM-systemer. 
         items:
           - details: Backend- og integrasjonsutvikling i PHP
@@ -156,29 +179,14 @@ params:
           - details: Apputvikling i React Native
           - details: Prosjektplanlegging og -ledelse
       - title: Innehaver
-        dates: 2020 - nå
+        dates: 2020 - 2021
         company: Grytøyr Dev
         link: https://dev.grytoyr.io
         details: >-
-          Jeg er innehaver av et enkeltpersonforetak hvor jeg tidvis påtar meg enkelte mindre utviklingsoppgaver privat.
+          Jeg var innehaver av et enkeltpersonforetak hvor jeg tidvis påtok meg enkelte mindre utviklingsoppgaver privat.
         items:
           - details: Systemutvikling
           - details: Flutter, Craft CMS, Elixir/Phoenix, Wordpress
-      - title: Medeier
-        dates: 2019 - nå
-        company: Trimpoeng AS
-        link: https://info.trimpoeng.no
-        details: >-
-          Jeg er medeier i Trimpoeng AS. Trimpoeng ble til som et produkt i iBooking AS i 2015. Siden oppstarten og frem
-          til høsten 2020 har Trimpoeng bidratt til mer enn seks millioner turopplevelser i Norge. Appen som har 
-          sørget for å gjøre dette mulig er utviklet av meg. Senere har produktet blitt skilt ut i et eget selskap 
-          som jeg nå er medeier i. Høsten 2020 ble en helt ny app skrevet i Flutter lansert, og jeg har vært involvert
-          i store deler av utviklingen av denne. Jeg jobber fortsatt med å videreutvikle denne appen.
-        items:
-          - details: Backendutvikling i PHP og Elixir/Phoenix
-          - details: Apputvikling i Appcelerator (2015-2020)
-          - details: Apputvikling i Flutter (2019-)
-          - details: 'Blogging, se [https://blogg.trimpoeng.no/author/kim/](https://blogg.trimpoeng.no/author/kim/)'
       - title: Eier, daglig leder og utvikler
         dates: 2004 - 2015
         company: Nettintro ANS
@@ -211,9 +219,9 @@ params:
     enable: true
     list:
       - title: Fakta
-        details: 'Født i [Steigen kommune](https://steigen.kommune.no) i 1985. Bor nå i Bodø. Har to barn på 11 og 13 år.'
+        details: 'Født i [Steigen kommune](https://steigen.kommune.no) i 1985. Bor nå i Bodø. Har to barn på 12 og 14 år.'
       - title: Interesser
-        details: '[Sjakk](https://lichess.org/@/kimgrytoyr), fotografering, [spillutvikling](https://ldjam.com/users/ramlefant/games).'
+        details: '[Sjakk](https://lichess.org/@/kimgrytoyr), [fotografering](https://500px.com/kimgrytoyr), [spillutvikling](https://ldjam.com/users/ramlefant/games) og brettspill, blant annet.'
   social:
     enable: true
     list:
