@@ -137,11 +137,10 @@ params:
         link: https://devos.no
         details: >-
           I november startet jeg opp som selvstendig konsulent i eget firma. Mer informasjon finner du på nettsiden: https://devos.no.
-          Jeg tar alle slags relevantejobber, men primært jobber jeg med:
+          Jeg tar alle slags relevante jobber, men mesteparten av tiden min gjør jeg en av følgende:
         items:
           - details: Frontendutvikling i React
           - details: Backendutvikling i Elixir/Phoenix
-          - details: Apputvikling i Flutter (2019-)
           - details: Leveranse av nettsider (WordPress)
       - title: Medeier og CTO
         dates: 2019 - nå (CTO november 2021 - nå)
